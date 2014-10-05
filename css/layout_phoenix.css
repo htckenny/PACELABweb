@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+nav{
+  display:block;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  text-align:center;
+}
+.logo {
+    position: relative;  
+    left: -0.0625em;
+    height: 5em;
+  margin: 0px 0px 1.5em;
+  padding-top: 250px;
+}
+.logo img {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0px auto;
+}
+.navigation{
+	margin-bottom:1.5em
+}
+
+.navigation a{
+	display:inline-block;
+	padding:0.75em 0.927em;
+	background:#b53711;
+	background:rgba(56,95,152,0.764);
+	font-weight:600;
+	color:#f9f7f6;
+  text-decoration:none;
+}
+
+.navigation a:first-child{
+	-webkit-border-radius:0.375em 0 0 0.375em;
+	-moz-border-radius:0.375em 0 0 0.375em;
+	-ms-border-radius:0.375em 0 0 0.375em;
+	-o-border-radius:0.375em 0 0 0.375em;
+	border-radius:0.375em 0 0 0.375em
+}
+
+.navigation a:last-child{
+	-webkit-border-radius:0 0.375em 0.375em 0;
+	-moz-border-radius:0 0.375em 0.375em 0;
+	-ms-border-radius:0 0.375em 0.375em 0;
+	-o-border-radius:0 0.375em 0.375em 0;
+	border-radius:0 0.375em 0.375em 0
+}
+
+.navigation a:hover{
+	background:#1d0903;
+	background:rgba(35,63,84,0.764);
+	border:none
+}
+
+.navigation a:active{
+	background:#611d09;
+	background:rgba(97,29,9,0.764)
+}
+h1{
+	font-size:4.375em;
+	line-height:1.02857em;
+	font-family:"lft-etica", sans-serif;
+	font-weight:700;
+	margin:0;
+	text-align:center;
+	color:#f9f7f6
+}
+.linebreak{
+	display:block
+}
+.masthead h1 .linebreak{
+	position:relative;
+	padding-left:0.04286em
+}
+.masthead{
+	position:relative;
+	padding-top:180px;
+	padding-bottom:3em;
+	-webkit-perspective:700;
+	-moz-perspective:700;
+	-ms-perspective:700;
+	-o-perspective:700;
+	perspective:700;
+	background:#437AA1 url(http://myweb.ncku.edu.tw/~e24996413/PACE_Website/img/space.jpg) center -48px no-repeat;
+	text-align:center    
+}
+.masthead:after{
+	content:"";
+	display:block;
+	border:2.25em solid transparent;
+	border-top-color:#437AA1;
+	border-top-width:1.5em;
+	position:absolute;
+	left:50%;
+	bottom:-3.65625em;
+	margin-left:-2.25em;
+	z-index:900
+}
+.section {
+  padding: 4.5em 0px;
+}
+section{
+  display:block;
+}
+body{
+	font-size: 1.0625em;
+  font-family: "proxima-nova",sans-serif;  
+  line-height: 1.5em;
+  background: none repeat scroll 0% 0% #1D1B1B;  
+  color: #9F9E9D;
+  overflow:auto;
+  height: 100%;
+}
+html{
+ overflow:hidden;
+  height: 100%;
+}

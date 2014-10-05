@@ -1,0 +1,61 @@
+<html lang="en">
+	<head>
+		<title>NCKU PACELAB-nano satellite</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="icon" type="image/gif" href="img/favicon_animated.gif" />
+		<!-- Self-defined Settings -->
+		<link rel="stylesheet" type="text/css" href="css/layout_index.css"/>
+		
+		<!--<script type="text/javascript" src="js/index.js"></script>-->
+		
+		
+	</head>
+<body>
+
+<header id="introduction" class="masthead section">
+	<div class="logo">	  			
+		<img id="logo" src="img/logo.png"></img>
+	</div>
+	<nav class="navigation">
+		<a class="in-page-link" href="#home">Home</a>
+		<a class="in-page-link" href="#project">Project</a>				
+		<a class="in-page-link" href="#about">About</a>
+		<a class="in-page-link" href="#link">Link</a>
+		<a class="in-page-link" href="#contact">Contact</a>
+	</nav>	  	
+	<h1>
+		We develope our own satellite
+		<span class="linebreak">
+			 and launch into the space.
+		</span>
+	</h1>
+</header>		
+<!--Main Page-->
+<section id="project" class="section">
+	<div class="content">
+	<h1>
+		<span class="line">Phoenix</span>
+		<span class="line">Video</span>
+	<div class="vedio">
+		<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/UeCD5LSpoZc?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<span class="line">Introduction</span>
+	</h1>
+<h2>
+    <span class="line">PHOENIX is the CubeSat that is being developed at NCKU team for the participation
+of the QB50 project.</span>
+    </h2>
+	</div>
+</section>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+<script type="text/javascript">
+$(".in-page-link").click(function(){
+    var href = $(this).attr("href");
+    var pos = $(href).offset().top;
+    $("html,body").animate({scrollTop: pos}, 1000);
+    return false;
+});
+</script>
+</body>
+</html>

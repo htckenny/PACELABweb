@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+	width:100%;
+}
+.background {
+    background-color: #222;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.slogan {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.title {
+    position: relative;
+    text-align: center;
+}
+.content{
+  margin-top:50px;
+  text-align:center;
+  font-size:20px; 
+}
+a.name{
+  line-height:40px;
+  text-decoration:none;
+  color:#4B5256; 
+}
+a.name:hover{    
+   border-bottom:2px solid #4B5256;
+}
+.content img{
+  width:3em; 
+ border-bottom:none;
+}
+
+.linkitem{
+  height:100px;
+}

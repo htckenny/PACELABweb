@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+	width:100%;
+}
+.background {
+    background-color: #222;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.slogan {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.title {
+    position: relative;
+    text-align: center;
+}
+.title ul li {
+    display: inline;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.describe {
+    float: left;
+    line-height: 1.5em;
+   
+    width: 460px;
+}
+.describe-pic {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 460px;
+}
+#ourstory {
+    float: left;
+    left: 50%;
+    margin-left: -500px;
+}
+#ourtm {
+    background-color: #367a4d;
+    clear: both;
+    color: #fff;
+    height: 1600px;
+    margin-top: 50px;
+    padding-top: 20px;
+    position: relative;
+}
+.name {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.advisor {
+    margin: 0 auto;
+    text-align: center;
+    width: 980px;
+}
+.juang {
+    float: left;
+    margin-left: 100px;
+    width: 350px;
+}
+.miau {
+    float: right;
+    margin-right: 100px;
+    width: 350px;
+}
+.pro-des {
+    font-size: 16px;
+    font-weight: normal;
+}
+.student {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+.member-pic {
+    width: 170px;
+}
+.member-fl {
+    float: left;
+    height: 320px;
+    list-style-type: none;
+    margin-left: 90px;
+}
+.mem2{
+    clear: both;
+    margin-left: -30px;
+}
+.mem3{
+     margin-left: -10px;
+}
+#ad {
+    margin-top: 20px;
+}
+#ad1 {
+    margin-top: 30px;
+}
+#ad2 {
+    margin-top: 30px;
+}
+#ad3 {
+    margin-top: 30px;
+}
+#ad4 {
+    margin-top: 66px;
+}
+#ad5 {
+}
+.ernest {
+    margin-left: 60px;
+}
