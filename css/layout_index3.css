@@ -6,9 +6,12 @@ body {
 
 .background{
 	background-color:#222;
-	background-position:50% 50%;	
+	background-position:50% 50%;
+	
 	background-size:cover;
-    position:relative; 	
+    position:relative;
+  	margin-top:350px;
+	
 }
 .vedio{
 	padding-top:150px;
@@ -79,4 +82,23 @@ body {
   	box-shadow:2px 2px 5px 5px rgba(0, 0, 0, 0.25);
   	box-sizing:border-box;
 	margin-bottom:10px;
+}
+.ref{  
+  margin-top:-20px;
+  margin-bottom:20px;
+}
+.ref a:link{  
+  margin-top:-20px;
+  margin-bottom:20px;
+  
+  color:#4B5256;
+}
+.ref a:hover{  
+  margin-top:-20px;
+  margin-bottom:20px;
+  text-decoration: none;
+}
+
+.ref a:visited{
+  color:#4B5256;
 }

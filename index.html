@@ -17,15 +17,25 @@
 		  ga('require', 'displayfeatures');
 		  ga('send', 'pageview');
 
+		</script>		
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+			$('.flexslider').flexslider();
+			});
 		</script>
 	</head>
+	
+	
 <body>
 	<div id =container>
 	<header id="header" role="banner">
 	<div class="header-inner">
     <div id="navigation">
 		<nav class="main-nav">
-			<a href="/" title="Home" id="logo"><img src="../img/pace3.png"></a>
+			<a href="/" title="Home" id="logo"><img src="../img/Pacenew.png"></a>
             <div class="region region-navigation">
 				<ul class="menu nav-list nav-primary">
 				<li class="pace"><a href="http://140.116.215.244:7777/">PACE</a></li>
@@ -36,9 +46,9 @@
 				</ul>
 				<ul class="sec-nav">
 				<li class="aboutpacelab"><a href="/about.html" title="">About PACELAB</a></li>
-				<li class="join"><a href="/coming.html" title="">JOIN US</a></li>
+				<li class="join"><a href="/join.html" title="">JOIN US</a></li>
 				<li class="link"><a href="/link.html" title="">LINK</a></li>
-				<li class="contact"><a href="/coming.html" title="">CONTACT</a></li>
+				<li class="contact"><a href="/contact.html" title="">CONTACT</a></li>
 				</ul> 
 			</div>
       </nav>
@@ -54,17 +64,55 @@
 	
 <!--Main Page-->
 	<div class="background">	  			
-		
-		<div class="vedio">
-			<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/UeCD5LSpoZc?rel=0" frameborder="0" allowfullscreen></iframe>
-		</div>
-		
+	<!--<div id="page">
+		<ul id="slider">
+			<li><img style="width:100%;height:auto" src="img/slider/n01.jpg" alt="" /></li>
+			<li><img style="width:100%;height:auto" src="img/slider/n01.jpg" alt="" /></li>
+			<li><img style="width:100%;height:auto" src="img/slider/n03.png" alt="" /></li>
+			<li><img style="width:100%;height:auto" src="img/slider/n04.png" alt="" /></li>
+			<li><img style="width:100%;height:auto" src="img/slider/n05.png" alt="" /></li>
+		</ul>
+	</div>-->
+	
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="img/slider/n10.jpg" />
+			</li>
+			<li>
+				<img src="img/slider/n09.jpg" />
+			</li>
+			<li>
+				<img src="img/slider/n02.png" />
+			</li>
+			<li>
+				<img src="img/slider/n03.png" />
+			</li>
+			<li>
+				<img src="img/slider/n04.png" />
+			</li>
+			<li>
+				<img src="img/slider/n05.jpg" />
+			</li>
+		</ul>
 	</div>
 	</div>
+	<!--<div class="me">
+	   <h1>WELCOME </h1>
+       <h1 id = "sm">TO PACELAB</h1>
+	</div>-->
+     <div class= "me-con">
+    <div class = "me-l1"><p>EARTH </p><p>OBSERVATORY </p><p>SATELLITE</p><img style="width: 120px;" src="img/phoenix.jpg"></div>
+    <div class = "me-l2"><p>INTERPLANETARY </p><p>SATELLITE</p><img style="width: 270px;" src="img/birdy.jpg"></div>    
+	</div>
+   
+    
+</div>
 </body>
 <footer>
-	<div class="nasa">
-		<a> picture from NASA flickr http://www.flickr.com/photos/nasa2explore/14849522389/in/photostream/</a>
+	<div class="foot">
+		<a> © 2015 NCKU PACELAB SATELLITE TEAM.</a>
 	</div>
-	</footer>
+</footer>
 </html>
+

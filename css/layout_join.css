@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+	width:100%;
+}
+.background {
+    background-color: #222;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.slogan {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+.title {
+    position: relative;
+    text-align: center;
+  width:1024px;
+  left:50%;
+  margin-left:-500px;
+}
+.content{
+  margin-top:50px;  
+  font-size:20px; 
+   text-align: center;
+}
+.p2 {   
+  background-color:#136697;
+  color:white;  
+}
+#saying2{
+  top:50px;
+  height:400px;
+}
+#saying2 p{
+  color:white;
+  font-size:20px;
+  line-height:20px;
+}
+.title a{
+  color:#4B5256; 
+}
+.title h2{  
+  line-height:10px;
+  font-size:27px;
+  font-style: italic;
+}
+.title p {
+  line-height:20px;
+  text-decoration:none;
+  color:#4B5256; 
+  list-style-type:none;
+  font-size:20px; 
+  text-align:justify;
+}

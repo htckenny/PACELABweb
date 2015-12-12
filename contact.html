@@ -2,14 +2,20 @@
 	<head>
 		<title>NCKU PACELAB-nano satellite</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">		
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+       	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="css/layout_header.css"/>
-		<link rel="stylesheet" type="text/css" href="css/layout_coming.css"/>
+		<link rel="stylesheet" type="text/css" href="css/layout_contact.css"/>
 		<link rel="icon" href="img/ico.png" type="image/x-icon" />
-		<!-- Self-defined Settings -->		
+		<script> 
+			$(function(){
+			  // $("#header").load("header.html"); 
+			  $("#footer").load("footer.html"); 
+			});
+		</script> 
+		<!-- Self-defined Settings -->
 	</head>
 <body>
-	<div id =container>
+<div id =container>
 	<header id="header" role="banner">
 	<div class="header-inner">
     <div id="navigation">
@@ -32,21 +38,39 @@
 			</div>
       </nav>
     </div><!-- /#navigation -->    
-    </div>
-	
+    </div>	
 	</header>
+
 
 	
 <!--Main Page-->
-	<div class="background">
-		<h1>Coming Soon</h1>
+	<div class="background">	
+		<div class="slogan">
+			<h1>Contact Us</h1> 		
+		</div>
 	</div>
-	</div>
+	<div class="content"> 
+              <div class=saying>
+               	<li>If you are interested in the satellite,</li>
+		<li>or there is any other question,</li>
+               	<li>come to our lab for more information!! </li>
+              </div>
+              <div class=info>
+                <h1>INFO</h1>
+                <div class=professor>
+                  <h2> Professor's Office </h2>
+                  <li>+886-6-275-7575 ext.62333</li>
+                  <li>EE building #92801, NCKU </li>
+                  <li>juang@mail.ncku.edu.tw</li>
+                  </div>
+                <div class=our>
+                  <h2>Our Laboratory</h2>
+                  <li>EE building #92875, NCKU </li>
+                  </div>
+              </div>
+    
+  </div>
+</div>
 </body>
-<footer>
-	<div class="nasa">
-		<a>picture from NASA flickr </a>
-		<a href="http://www.flickr.com/photos/nasa2explore/14849522389/in/photostream">http://www.flickr.com/photos/nasa2explore/14849522389/in/photostream/ </a>
-	</div>
-</footer>
+<div id="footer"></div>
 </html>
